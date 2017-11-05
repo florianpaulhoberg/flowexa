@@ -32,7 +32,7 @@ def get_workouts(username, password, weightlifting_duration=[], weightlifting_ca
     client.login(username, password)
     activity = client.activities()
 
-    # Get global user information (will needed patched FlowClient:
+    # Get global user information (will need patched FlowClient:
     # https://github.com/florianpaulhoberg/flow-client/blob/patch-1/flow/client.py )
     activity_count = len(activity)
     userweight = activity[0].weight()
