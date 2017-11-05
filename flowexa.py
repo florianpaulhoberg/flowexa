@@ -107,6 +107,7 @@ def main():
     swimming_calories_overall = sum_objects(swimming_calories)
     swimming_distance_overall = sum_objects(swimming_distance)
 
+    # To get time of hours we will need to / 1000 / 60 * 0.0166667
     overall_time_min = (weightlifting_duration_overall + running_duration_overall + biking_duration_overall + swimming_duration_overall) / 1000 / 60
     overall_time_hours = int(overall_time_min) * 0.0166667
     overall_time_hours = int(overall_time_hours)
