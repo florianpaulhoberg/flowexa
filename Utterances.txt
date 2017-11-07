@@ -1,0 +1,5 @@
+GetEventsIntent Sportzusammenfassung
+GetEventsIntent meine Sportzusammenfassung zwischen dem {Date} und {EndDate}
+GetEventsIntent meine Sportzusammenfassung zwischen dem {Date} und dem {EndDate}
+GetEventsIntent meine Sportzusammenfassung vom {Date} und {EndDate}
+GetEventsIntent Statistik
